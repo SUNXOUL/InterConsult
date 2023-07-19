@@ -1,0 +1,146 @@
+@page "/CustomLogin"
+
+	<section class="login-section">
+		<div class="login-box">
+			<div class="left-section">
+				<div class="contact-form">
+					<form action="">
+						<h3>SIGN IN</h3>
+						<input type="text" placeholder="USERNAME">
+						<input type="password" placeholder="PASSWORD">
+						<button class="submit-btn">LOG IN</button>
+					</form>
+				</div>
+			</div>
+			<div class="right-section">
+				<div class="company-info">
+					<h2>INTERCONSULT</h2>
+					<h5>Welcome back!</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<style>
+		.login-section {
+			height: 1000px;
+			width: 100%;
+			background: radial-gradient(#727a7c, #0099CC);
+			position: relative;
+		}
+
+		.login-box {
+			width: 1050px;
+			height: 600px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: #fff;
+			border-radius: 10px;
+			box-shadow: 1px 4px 22px -8px #0004;
+			display: flex;
+			overflow: hidden;
+		}
+
+		.login-box .left-section {
+			width: 41%;
+			height: 100%;
+			padding: 25px;
+		}
+
+		.login-box .right-section {
+			width: 59%;
+			height: 100%;
+			background: linear-gradient(212.38deg, rgb(10, 122, 160) 0%, rgba(0, 153, 204) 100%);
+			color: #fff;
+			position: relative;
+		}
+
+		.login-box .left-section .contact-form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 73%;
+			margin: auto;
+		}
+
+		.login-box .left-section h3 {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+
+		.login-box .left-section input {
+			border: none;
+			border-bottom: 1px solid #0099CC;
+			padding: 7px 9px;
+			width: 80%;
+			margin: 15px 0px;
+			overflow: hidden;
+			background: transparent;
+			font-weight: 600;
+			font-size: 14px;
+		}
+
+		.login-box .submit-btn {
+			border: none;
+			padding: 15px 70px;
+			border-radius: 8px;
+			display: block;
+			margin: auto;
+			margin-top: 120px;
+			background: #0099CC;
+			color: #fff;
+			font-weight: bold;
+			box-shadow: 0px 9px 15px -11px rgb(54, 63, 114);
+		}
+
+		.right-section .company-info {
+			height: 100%;
+			position: relative;
+			transform: translateY(45%);
+		}
+
+		.company-info h2 {
+			display: block;
+			width: 100%;
+			text-align: center;
+			font-size: 50px;
+			font-weight: 500;
+		}
+
+		.company-info h5 {
+			display: block;
+			width: 100%;
+			text-align: center;
+			font-size: 19px;
+			font-weight: 400;
+		}
+
+		.right-section .right-inductor {
+			position: absolute;
+			width: 70px;
+			height: 7px;
+			background: #fff0;
+			left: 50%;
+			bottom: 70px;
+			transform: translateX(-50%);
+		}
+
+		.top-link {
+			height: 20px;
+		}
+
+		.top-link a {
+			color: #452A5A;
+			font-weight: 400;
+		}
+
+		.top-link img {
+			width: 28px;
+			padding-right: 7px;
+			margin-top: -3px;
+		}
+	</style>
